@@ -12,7 +12,7 @@ export const CSSReset = createGlobalStyle`
     width: 100%;
   }
   body{
-    background-color: ${({ theme }) => theme.colors['white-100']};
+    background-color: ${({ theme }) => theme.colors.white};
   }
 
   body, html{

@@ -17,6 +17,7 @@ export const defaultTheme = {
     'green-100': '#16C79A',
     'green-200': '#1AA17E',
     'purple-800': '#AF05AA',
+    'purple-900': '#8A0B86',
     'pink-700': '#EA21A2',
   } as const,
   fontSizes: {

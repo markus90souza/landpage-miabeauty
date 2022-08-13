@@ -3,8 +3,6 @@ import styled from 'styled-components'
 export const ServicesContainer = styled.section`
   padding: 96px 72px;
 
-  background-color: ${({ theme }) => theme.colors['blue-100']};
-
   @media only screen and (max-width: 667px) and (min-width: 320px) {
     padding: 20px;
   }
@@ -21,13 +19,14 @@ export const ServicesWrapper = styled.div`
     flex-direction: column;
     gap: 1rem;
     h2 {
+      font-family: ${({ theme }) => theme.fontFamily.heading};
       font-size: ${({ theme }) => theme.fontSizes['4xl']};
-      color: ${({ theme }) => theme.colors.white};
+      color: ${({ theme }) => theme.colors['black-900']};
       font-weight: 700;
     }
     h3 {
       font-size: ${({ theme }) => theme.fontSizes.md};
-      color: ${({ theme }) => theme.colors['green-100']};
+      color: ${({ theme }) => theme.colors['purple-800']};
       font-weight: 700;
       text-transform: uppercase;
     }

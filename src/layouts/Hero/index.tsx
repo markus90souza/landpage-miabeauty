@@ -19,8 +19,8 @@ export function Hero() {
         <HeadlineContainer>
           <Headline>Eleve sua autoestima com nossos serviços</Headline>
           <SubHeadline>
-            Nossos especialistas estão prontos para cuidar da saúde e limpeza do
-            seu melhor amigo com um atendimento exclusivo!
+            Revele a essência da sua beleza com nosso trabalho de qualidade,
+            profissionais qualificados e um ambiente seu igual!
           </SubHeadline>
 
           <WhatsappButton>

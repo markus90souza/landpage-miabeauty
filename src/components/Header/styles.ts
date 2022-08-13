@@ -23,14 +23,14 @@ export const HeaderButton = styled.button`
   background-color: transparent;
   padding: 0.75rem 1.5rem;
   text-transform: uppercase;
-  color: ${({ theme }) => theme.colors['blue-100']};
-  border: 2px solid ${({ theme }) => theme.colors['blue-100']};
+  color: ${({ theme }) => theme.colors['black-900']};
+  border: 2px solid ${({ theme }) => theme.colors['black-900']};
   font-size: ${({ theme }) => theme.fontSizes.md};
   font-weight: 600;
   border-radius: 90px;
 
   &:hover {
-    color: ${({ theme }) => theme.colors['blue-200']};
-    border-color: ${({ theme }) => theme.colors['blue-200']};
+    color: ${({ theme }) => theme.colors['black-800']};
+    border-color: ${({ theme }) => theme.colors['black-800']};
   }
 `

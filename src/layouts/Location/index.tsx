@@ -12,7 +12,7 @@ export function Location() {
           <h3>ONDE ESTAMOS</h3>
           <h2>Venha nos fazer uma visita!</h2>
           <span>
-            <MapPin size={20} color={colors['green-100']} />
+            <MapPin size={20} color={colors['pink-700']} />
             <address>Avenida 01 - 448 - São sebastião</address>
           </span>
         </header>
