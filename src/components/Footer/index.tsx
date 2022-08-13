@@ -19,7 +19,8 @@ export function Footer() {
         <FooterBrandContainer>
           <Brand src={logoIcon} />
           <p>
-            © {new Date().getFullYear()} - Lovet. Todos os direitos reservados.
+            © {new Date().getFullYear()} - Miabeauty. Todos os direitos
+            reservados.
           </p>
         </FooterBrandContainer>
         <FooterSocialContainer>
